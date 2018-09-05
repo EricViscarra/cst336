@@ -4,7 +4,7 @@
 // Press the 'Run' button on the top to start the web server,
 // then click the URL that is emitted to the Output tab of the console
 
-echo "Eric Orozco Viscarra's workspace page";
+echo "<h1>Eric Orozco Viscarra's CST336 sit </h1>";
 
 ?>
 </body>
