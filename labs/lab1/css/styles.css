@@ -1,0 +1,100 @@
+body {
+    background-color:black;
+    color: white;
+    font-size:16pt;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+header {
+    color: #ffff00;
+}
+
+nav a {
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    border-bottom:2px red solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+#me, #welcomeText {
+    float:left;
+}
+
+#me {
+    margin: 50px 100px;
+}
+
+#welcomeText {
+    text-align: left;
+    padding-top:70px;
+}
+
+footer {
+    color: gray;
+    font-size: 0.8em;
+    clear: left;
+}
+
+hr {
+    
+    width: 50%;
+    height: 3px;
+    background: white;
+                
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: #351a00;
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+ul {
+    text-align: left;
+    padding-left:200px;
+    font-size: 0.8em;
+}
+
+.hobby {
+    color: yellow;
+}
+
+.currentPage {
+    color: yellow;
+    font-size: 1.2em;
+}
+
+#content {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    margin-bottom: 0px;
+}
