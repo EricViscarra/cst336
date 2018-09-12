@@ -61,7 +61,7 @@
             }
             
             echo "</div>";
-        }
+        } //displayPoints()
         $random_value1 = rand (0,2);
         displaySymbol($random_value1);
         $random_value2 = rand(0,2);
@@ -77,8 +77,5 @@
         
         ?>
         
-       
-        
-
     </body>
 </html>
