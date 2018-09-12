@@ -1,0 +1,50 @@
+body {
+    background-image: url("../img/background.jpg");
+    background-size: 100%;
+    font-size: 12pt;
+    color: white;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+#nav a {
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 2em;
+    text-decoration: none;
+    color: white;
+}
+#nav a:hover {
+    border-bottom:2px yellow solid;
+    font-size: 2em;
+    transition: .9s;
+}
+.currentPage {
+    color: #00ff00;
+    font-size: 1.2em;
+}
+#picture {
+    padding-left: 200px;
+}
+#picture, #info {
+    float: left;
+}
+#info p {
+    text-align: left;
+}
+#info a {
+    text-align: left;
+    color:yellow;
+}
+#example {
+    clear: left;
+    padding-top: 50px;
+}
+h1 {
+    font-size: 3.5em;
+    font: bold;
+}
+#footer {
+    color: white;
+    font-size: 0.8em;
+    clear: left;
+}
