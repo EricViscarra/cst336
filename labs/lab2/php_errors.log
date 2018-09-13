@@ -1,0 +1,12 @@
+[12-Sep-2018 22:05:46 UTC] PHP Parse error:  syntax error, unexpected ''rand(0,255)'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php on line 22
+[12-Sep-2018 22:08:36 UTC] PHP Parse error:  syntax error, unexpected '""' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php on line 22
+[12-Sep-2018 22:09:56 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php on line 22
+[12-Sep-2018 22:10:46 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php on line 44
+[12-Sep-2018 22:24:07 UTC] PHP Fatal error:  Call to undefined function rgba() in /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php on line 9
+[12-Sep-2018 22:24:08 UTC] PHP Stack trace:
+[12-Sep-2018 22:24:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php:0
+[12-Sep-2018 22:24:08 UTC] PHP   2. getRandomColor() /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php:25
+[12-Sep-2018 22:24:12 UTC] PHP Fatal error:  Call to undefined function rgba() in /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php on line 9
+[12-Sep-2018 22:24:12 UTC] PHP Stack trace:
+[12-Sep-2018 22:24:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php:0
+[12-Sep-2018 22:24:12 UTC] PHP   2. getRandomColor() /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php:25

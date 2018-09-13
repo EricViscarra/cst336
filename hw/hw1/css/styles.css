@@ -48,3 +48,6 @@ h1 {
     font-size: 0.8em;
     clear: left;
 }
+marquee {
+     width:100%;
+}
