@@ -1,0 +1,251 @@
+[26-Sep-2018 03:27:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 78
+[26-Sep-2018 03:27:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 78
+[26-Sep-2018 03:27:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 78
+[26-Sep-2018 04:57:27 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 65
+[26-Sep-2018 04:57:27 UTC] PHP Stack trace:
+[26-Sep-2018 04:57:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 04:59:31 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 65
+[26-Sep-2018 04:59:31 UTC] PHP Stack trace:
+[26-Sep-2018 04:59:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 04:59:35 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 65
+[26-Sep-2018 04:59:35 UTC] PHP Stack trace:
+[26-Sep-2018 04:59:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 04:59:54 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 66
+[26-Sep-2018 04:59:54 UTC] PHP Stack trace:
+[26-Sep-2018 04:59:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 05:00:17 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 66
+[26-Sep-2018 05:00:17 UTC] PHP Stack trace:
+[26-Sep-2018 05:00:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 05:01:11 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 66
+[26-Sep-2018 05:01:11 UTC] PHP Stack trace:
+[26-Sep-2018 05:01:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 05:01:21 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 66
+[26-Sep-2018 05:01:21 UTC] PHP Stack trace:
+[26-Sep-2018 05:01:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 05:01:23 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 66
+[26-Sep-2018 05:01:23 UTC] PHP Stack trace:
+[26-Sep-2018 05:01:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 05:01:25 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 66
+[26-Sep-2018 05:01:25 UTC] PHP Stack trace:
+[26-Sep-2018 05:01:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 06:51:43 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 65
+[26-Sep-2018 06:51:43 UTC] PHP Stack trace:
+[26-Sep-2018 06:51:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 06:52:41 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 65
+[26-Sep-2018 06:52:41 UTC] PHP Stack trace:
+[26-Sep-2018 06:52:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 06:54:36 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 65
+[26-Sep-2018 06:54:36 UTC] PHP Stack trace:
+[26-Sep-2018 06:54:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 06:59:33 UTC] PHP Fatal error:  Call to undefined function isValid() in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 62
+[26-Sep-2018 06:59:33 UTC] PHP Stack trace:
+[26-Sep-2018 06:59:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 06:59:33 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:04:19 UTC] PHP Fatal error:  Call to undefined function playerTurn() in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 75
+[26-Sep-2018 07:04:19 UTC] PHP Stack trace:
+[26-Sep-2018 07:04:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:04:19 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:05:54 UTC] PHP Warning:  array_search() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 76
+[26-Sep-2018 07:05:54 UTC] PHP Stack trace:
+[26-Sep-2018 07:05:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:05:54 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:05:54 UTC] PHP   3. array_search(*uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:76
+[26-Sep-2018 07:07:02 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 42
+[26-Sep-2018 07:07:02 UTC] PHP Stack trace:
+[26-Sep-2018 07:07:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:07:02 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:07:02 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:78
+[26-Sep-2018 07:07:02 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:42
+[26-Sep-2018 07:07:02 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 43
+[26-Sep-2018 07:07:02 UTC] PHP Stack trace:
+[26-Sep-2018 07:07:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:07:02 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:07:02 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:78
+[26-Sep-2018 07:07:02 UTC] PHP   4. array_pop(*uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:43
+[26-Sep-2018 07:07:02 UTC] PHP Fatal error:  Call to a member function getRow() on a non-object in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 44
+[26-Sep-2018 07:07:02 UTC] PHP Stack trace:
+[26-Sep-2018 07:07:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:07:02 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:07:02 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:78
+[26-Sep-2018 07:07:02 UTC] PHP Warning:  array_search() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 76
+[26-Sep-2018 07:07:02 UTC] PHP Stack trace:
+[26-Sep-2018 07:07:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:07:02 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:07:02 UTC] PHP   3. array_search(*uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:76
+[26-Sep-2018 07:07:02 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 42
+[26-Sep-2018 07:07:02 UTC] PHP Stack trace:
+[26-Sep-2018 07:07:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:07:02 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:07:02 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:78
+[26-Sep-2018 07:07:02 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:42
+[26-Sep-2018 07:07:02 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 43
+[26-Sep-2018 07:07:02 UTC] PHP Stack trace:
+[26-Sep-2018 07:07:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:07:02 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:07:02 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:78
+[26-Sep-2018 07:07:02 UTC] PHP   4. array_pop(*uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:43
+[26-Sep-2018 07:07:02 UTC] PHP Fatal error:  Call to a member function getRow() on a non-object in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 44
+[26-Sep-2018 07:07:02 UTC] PHP Stack trace:
+[26-Sep-2018 07:07:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:07:02 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:07:02 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:78
+[26-Sep-2018 07:09:37 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 42
+[26-Sep-2018 07:09:37 UTC] PHP Stack trace:
+[26-Sep-2018 07:09:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:09:37 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:09:37 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:78
+[26-Sep-2018 07:09:37 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:42
+[26-Sep-2018 07:09:49 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 43
+[26-Sep-2018 07:09:49 UTC] PHP Stack trace:
+[26-Sep-2018 07:09:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:09:49 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:09:49 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:78
+[26-Sep-2018 07:09:49 UTC] PHP   4. array_pop(*uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:43
+[26-Sep-2018 07:10:15 UTC] PHP Fatal error:  Call to a member function getRow() on a non-object in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 44
+[26-Sep-2018 07:10:15 UTC] PHP Stack trace:
+[26-Sep-2018 07:10:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:10:15 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:10:15 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:78
+[26-Sep-2018 07:13:40 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 42
+[26-Sep-2018 07:13:40 UTC] PHP Stack trace:
+[26-Sep-2018 07:13:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:13:40 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:13:40 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:78
+[26-Sep-2018 07:13:40 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:42
+[26-Sep-2018 07:13:40 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 43
+[26-Sep-2018 07:13:40 UTC] PHP Stack trace:
+[26-Sep-2018 07:13:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:13:40 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:13:40 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:78
+[26-Sep-2018 07:13:40 UTC] PHP   4. array_pop(*uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:43
+[26-Sep-2018 07:13:40 UTC] PHP Fatal error:  Call to a member function getRow() on a non-object in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 44
+[26-Sep-2018 07:13:40 UTC] PHP Stack trace:
+[26-Sep-2018 07:13:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:13:40 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:13:40 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:78
+[26-Sep-2018 07:14:34 UTC] PHP Warning:  array_search() expects parameter 2 to be array, string given in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 76
+[26-Sep-2018 07:14:34 UTC] PHP Stack trace:
+[26-Sep-2018 07:14:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:14:34 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:14:34 UTC] PHP   3. array_search(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:76
+[26-Sep-2018 07:14:34 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 43
+[26-Sep-2018 07:14:34 UTC] PHP Stack trace:
+[26-Sep-2018 07:14:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:14:34 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:14:34 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:78
+[26-Sep-2018 07:14:34 UTC] PHP   4. array_pop(*uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:43
+[26-Sep-2018 07:14:34 UTC] PHP Fatal error:  Call to a member function getRow() on a non-object in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 44
+[26-Sep-2018 07:14:34 UTC] PHP Stack trace:
+[26-Sep-2018 07:14:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:14:34 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:14:34 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:78
+[26-Sep-2018 07:15:53 UTC] PHP Warning:  array_search() expects parameter 2 to be array, string given in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 76
+[26-Sep-2018 07:15:53 UTC] PHP Stack trace:
+[26-Sep-2018 07:15:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:15:53 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:15:53 UTC] PHP   3. array_search(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:76
+[26-Sep-2018 07:15:54 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 43
+[26-Sep-2018 07:15:54 UTC] PHP Stack trace:
+[26-Sep-2018 07:15:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:15:54 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:15:54 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:78
+[26-Sep-2018 07:15:54 UTC] PHP   4. array_pop(*uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:43
+[26-Sep-2018 07:15:57 UTC] PHP Fatal error:  Call to a member function getRow() on a non-object in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 44
+[26-Sep-2018 07:15:57 UTC] PHP Stack trace:
+[26-Sep-2018 07:15:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:15:57 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:15:57 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:78
+[26-Sep-2018 07:17:42 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 43
+[26-Sep-2018 07:17:42 UTC] PHP Stack trace:
+[26-Sep-2018 07:17:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:17:42 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:17:42 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:78
+[26-Sep-2018 07:17:42 UTC] PHP   4. array_pop(*uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:43
+[26-Sep-2018 07:17:42 UTC] PHP Fatal error:  Call to a member function getRow() on a non-object in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 44
+[26-Sep-2018 07:17:42 UTC] PHP Stack trace:
+[26-Sep-2018 07:17:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:17:42 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:17:42 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:78
+[26-Sep-2018 07:19:08 UTC] PHP Fatal error:  Call to a member function getRow() on a non-object in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 44
+[26-Sep-2018 07:19:08 UTC] PHP Stack trace:
+[26-Sep-2018 07:19:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:19:08 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:19:08 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:78
+[26-Sep-2018 07:21:41 UTC] PHP Fatal error:  Call to a member function getRow() on a non-object in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 44
+[26-Sep-2018 07:21:41 UTC] PHP Stack trace:
+[26-Sep-2018 07:21:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:21:41 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:21:41 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:78
+[26-Sep-2018 07:21:41 UTC] PHP Fatal error:  Call to a member function getRow() on a non-object in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 44
+[26-Sep-2018 07:21:41 UTC] PHP Stack trace:
+[26-Sep-2018 07:21:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:21:41 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:21:41 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:78
+[26-Sep-2018 07:23:53 UTC] PHP Fatal error:  Call to a member function getRow() on a non-object in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 44
+[26-Sep-2018 07:23:53 UTC] PHP Stack trace:
+[26-Sep-2018 07:23:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 07:23:53 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 07:23:53 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:78
+[26-Sep-2018 08:04:16 UTC] PHP Parse error:  syntax error, unexpected 'unset' (T_UNSET) in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 84
+[26-Sep-2018 08:04:16 UTC] PHP Stack trace:
+[26-Sep-2018 08:04:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 08:07:15 UTC] PHP Parse error:  syntax error, unexpected 'unset' (T_UNSET) in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 84
+[26-Sep-2018 08:07:15 UTC] PHP Stack trace:
+[26-Sep-2018 08:07:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 08:20:28 UTC] PHP Fatal error:  Call to undefined function setUsed() in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 54
+[26-Sep-2018 08:20:28 UTC] PHP Stack trace:
+[26-Sep-2018 08:20:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 08:20:28 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 08:20:28 UTC] PHP   3. Game->compTurn() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:94
+[26-Sep-2018 08:31:37 UTC] PHP Fatal error:  Call to undefined method Coords::getHeight() in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 61
+[26-Sep-2018 08:31:37 UTC] PHP Stack trace:
+[26-Sep-2018 08:31:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 08:31:37 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:65
+[26-Sep-2018 08:31:37 UTC] PHP   3. Game->display() /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php:94
+[26-Sep-2018 10:04:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 102
+[26-Sep-2018 10:04:49 UTC] PHP Stack trace:
+[26-Sep-2018 10:04:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 10:07:50 UTC] PHP Fatal error:  play(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "Game" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 85
+[26-Sep-2018 10:07:50 UTC] PHP Stack trace:
+[26-Sep-2018 10:07:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 10:07:50 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:67
+[26-Sep-2018 10:09:59 UTC] PHP Fatal error:  play(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "Game" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 85
+[26-Sep-2018 10:09:59 UTC] PHP Stack trace:
+[26-Sep-2018 10:09:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 10:09:59 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:67
+[26-Sep-2018 10:10:13 UTC] PHP Fatal error:  play(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "Game" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 85
+[26-Sep-2018 10:10:13 UTC] PHP Stack trace:
+[26-Sep-2018 10:10:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 10:10:13 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:67
+[26-Sep-2018 10:10:30 UTC] PHP Fatal error:  play(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "Game" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 85
+[26-Sep-2018 10:10:31 UTC] PHP Stack trace:
+[26-Sep-2018 10:10:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 10:10:31 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:67
+[26-Sep-2018 10:12:26 UTC] PHP Fatal error:  play(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "Game" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 85
+[26-Sep-2018 10:12:26 UTC] PHP Stack trace:
+[26-Sep-2018 10:12:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 10:12:26 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:67
+[26-Sep-2018 10:14:03 UTC] PHP Fatal error:  play(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "Game" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 85
+[26-Sep-2018 10:14:03 UTC] PHP Stack trace:
+[26-Sep-2018 10:14:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 10:14:03 UTC] PHP   2. play($num = *uninitialized*) /home/ubuntu/workspace/cst336/hw/hw2/index.php:67
+[26-Sep-2018 10:15:18 UTC] PHP Fatal error:  Call to a member function display() on a non-object in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 69
+[26-Sep-2018 10:15:18 UTC] PHP Stack trace:
+[26-Sep-2018 10:15:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 10:15:53 UTC] PHP Fatal error:  Call to a member function display() on a non-object in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 69
+[26-Sep-2018 10:15:53 UTC] PHP Stack trace:
+[26-Sep-2018 10:15:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 10:15:53 UTC] PHP Fatal error:  Call to a member function display() on a non-object in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 69
+[26-Sep-2018 10:15:53 UTC] PHP Stack trace:
+[26-Sep-2018 10:15:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 11:03:58 UTC] PHP Fatal error:  Call to undefined function checkWinner() in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 120
+[26-Sep-2018 11:03:58 UTC] PHP Stack trace:
+[26-Sep-2018 11:03:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 11:03:58 UTC] PHP   2. Game->forceEnd() /home/ubuntu/workspace/cst336/hw/hw2/index.php:74
+[26-Sep-2018 11:06:24 UTC] PHP Fatal error:  Call to undefined function checkWinner() in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 120
+[26-Sep-2018 11:06:24 UTC] PHP Stack trace:
+[26-Sep-2018 11:06:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 11:06:24 UTC] PHP   2. Game->forceEnd() /home/ubuntu/workspace/cst336/hw/hw2/index.php:74
+[26-Sep-2018 11:22:01 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/cst336/hw/hw2/inc/Game.php on line 83
+[26-Sep-2018 11:22:01 UTC] PHP Stack trace:
+[26-Sep-2018 11:22:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0

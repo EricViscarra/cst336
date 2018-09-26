@@ -3,14 +3,14 @@
 include 'inc/functions.php';
 
 ?>
-
 <!DOCTYPE html>
 <html>
     <head>
         <title> 777 Slot Machine </title>
         
-        <link href="css/styles.css" rel="stylesheet" type="text/css" />
-    
+        <style>
+            @import url("css/styles.css");
+        </style>
     </head>
     <body>
         
@@ -27,7 +27,7 @@ include 'inc/functions.php';
         </div>
         
         <footer>
-            <br /> <br /> <br /> <br />
+            
             <hr>
             
             CST336 Internet Programming. 2018 &copy; Eric Orozco Viscarra <br />
