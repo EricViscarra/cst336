@@ -85,6 +85,7 @@ $_SESSION["status"] = "on";
                             YOU WON!
                         </div>
                         ";
+                        session_destroy();
                 }
                 else if (strcmp($_SESSION["result"], lose) == 0) {
                     echo "
@@ -92,6 +93,7 @@ $_SESSION["status"] = "on";
                             YOU LOST!
                         </div>
                         ";
+                        session_destroy();
                 }
                 else {
                     echo "
@@ -99,12 +101,13 @@ $_SESSION["status"] = "on";
                             YOU TIED!
                         </div>
                         ";
+                        session_destroy();
                 }
             }
             ?>
             <footer>
-            <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
-            <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+            <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+            <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
             <hr>
             
             CST336 Internet Programming. 2018 &copy; Eric Orozco Viscarra <br />
