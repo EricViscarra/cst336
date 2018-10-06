@@ -114,5 +114,20 @@ if (isset($_GET['keyword'])) {
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        
+        <footer>
+             <br /> <br /> <br /> <br /> <br /> <br />
+              <br /> <br /> <br /> <br /> <br /> <br />
+            <hr>
+            
+            CST336 Internet Programming. 2018 &copy; Eric Orozco Viscarra <br />
+            
+            <strong>Disclaimer:</strong> The information in this website is ficticious. <br /> It is used for academic purposes only. <br />
+            <br />
+            
+            <img src="../../../img/csumb.png" alt="CSUMB logo" />
+            <img src="../../../img/buddy.png" alt="Buddy Ribbon" />
+            
+        </footer>
     </body>
 </html>

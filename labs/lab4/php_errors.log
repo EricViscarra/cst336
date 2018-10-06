@@ -8,3 +8,7 @@
 [01-Oct-2018 21:07:10 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/labs/lab4/Slider/index.php on line 5
 [01-Oct-2018 21:07:10 UTC] PHP Stack trace:
 [01-Oct-2018 21:07:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/Slider/index.php:0
+[06-Oct-2018 21:36:14 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab4/Slider/index.php on line 85
+[06-Oct-2018 21:36:14 UTC] PHP Stack trace:
+[06-Oct-2018 21:36:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/Slider/index.php:0
+[06-Oct-2018 21:36:14 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab4/Slider/index.php:85
