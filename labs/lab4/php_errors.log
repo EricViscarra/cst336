@@ -1,0 +1,10 @@
+[26-Sep-2018 23:11:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/labs/lab4/Slider/index.php on line 52
+[26-Sep-2018 23:12:17 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/labs/lab4/Slider/index.php on line 5
+[26-Sep-2018 23:12:17 UTC] PHP Stack trace:
+[26-Sep-2018 23:12:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/Slider/index.php:0
+[01-Oct-2018 21:00:09 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/labs/lab4/Slider/index.php on line 5
+[01-Oct-2018 21:00:09 UTC] PHP Stack trace:
+[01-Oct-2018 21:00:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/Slider/index.php:0
+[01-Oct-2018 21:07:10 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/labs/lab4/Slider/index.php on line 5
+[01-Oct-2018 21:07:10 UTC] PHP Stack trace:
+[01-Oct-2018 21:07:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/Slider/index.php:0
