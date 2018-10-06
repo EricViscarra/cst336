@@ -11,7 +11,9 @@ if (isset($_GET['keyword'])) {
     $layout = $_GET['layout'];
     $imageURLs = getImageURLs($keyword, $layout);
     shuffle($imageURLs);
-    $backgroundImage = $imageURLs[array_rand($imageURLs)];
+    $random = array_rand($imageURLs);
+    $backgroundImage = $imageURLs[$random];
+    unset($imageURLs[$random]);
 }
 ?>
 
@@ -38,21 +40,21 @@ if (isset($_GET['keyword'])) {
     <body>
           <br />
             <form method "GET">
-            <input type="text" name="keyword" size="15" placeholder="Keyword" />    
+            <input type="text" name="keyword" size="15" placeholder="Keyword" value="<?=$_GET['keyword']?>"/>    
             <div id="orientation">
-              <input type="radio" name="layout" value="horizontal"> Horizontal
+              <input type="radio" name="layout" value="horizontal" 
+                <?= ($_GET['layout'] == "horizontal")?" checked":"" ?>  > Horizontal
               <br />
-              <input type="radio" name="layout" value="vertical"> Vertical
+              <input type="radio" name="layout" value="vertical"
+                <?= ($_GET['layout'] == "vertical")?" checked":"" ?>  > Vertical
             </div>
             <br />
             <select name="category">
-              <div id="select">
               <option value="">Select One</option>
-              <option value="ocean">Sea</option>
-              <option value="mountains">Mountains</option>
-              <option value="forest">Forest</option>
-              <option value="sky">Sky</option>
-              </div>
+              <option <?= ($_GET['category'] == "sea")?" selected":"" ?> value="sea">Sea</option>
+              <option <?= ($_GET['category'] == "mountains")?" selected":"" ?> value="mountains">Mountains</option>
+              <option <?= ($_GET['category'] == "forest")?" selected":"" ?> value="forest">Forest</option>
+              <option  <?= ($_GET['category'] == "sky")?" selected":"" ?> value="sky" >Sky</option>
             </select>
                 <input type="submit" name="submitBtn" value="Submit!" />
             </form>
