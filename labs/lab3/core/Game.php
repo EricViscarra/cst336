@@ -10,6 +10,7 @@ class Game {
     private $totalScore;
     private $totalRounds;
     
+    private $winners = array();
     private $playerNames = array("Jeremy", "Andy", "Elizabeth", "Eric");
     private $playerImages = array("imgs/p1.png", "imgs/p2.png", "imgs/p3.png", "imgs/p4.png");
     
@@ -94,11 +95,22 @@ class Game {
         } else {
             $playerWin = $this->players[3];
         }
+        $winningScore = $playerWin->getScore();
+        $countWon = 0;
+        for ($i = 0; $i < 4; $i++) {
+            if ($winningScore == $this->players[$i]->getScore()) {
+                array_push($this->winners, $this->players[$i]);
+                $countWon++;
+            }
+        }
         // $this->totalScore = 0;
         // for ($i = 1; $i < 4; ++$i) {
         //     $this->totalScore += $winner[$i];
         // }
-        $this->totalScore =$playerWin->getScore() - $sum;
+        $this->totalScore = $sum;
+        for ($i = 0; $i < $countWon; $i++) {
+            $this->totalScore -= $this->winners[$i]->getScore();
+        }
         $this->totalScore = abs($this->totalScore);
         return $playerWin;
     }
@@ -107,12 +119,29 @@ class Game {
     public function displayWinner() {
         $playerWin = $this->winner();
          echo "<div id= 'displayWin'>";
-        echo "<h2 id = 'winner'>" . $playerWin->getName() . " wins " . $this->totalScore . " points!! </h2>";
+         if (count($this->winners) < 2) {
+            echo "<h2 id = 'winner'>" . $playerWin->getName() . " won " . $this->totalScore . " points!! </h2>";
+         }
+         else {
+             echo "<h2 id = 'winner'>";
+             for ($i = 0; $i < count($this->winners); $i++) {
+                 if ($i == count($this->winners)-1) {
+                    echo "and " . $this->winners[$i]->getName() . " ";
+                 }
+                 else {
+                     echo $this->winners[$i]->getName() . " ";
+                 }
+             }
+             echo "won " . $this->totalScore . " points!! </h2>";
+         }
         echo "</div>";
+        echo "<br />";
         echo "<div id= 'displayWin2'>";
-        echo "<h5> Time elapsed: " . $this->timeElapsed . " secs </h5>";
+        echo "<h5> Time elapsed: " . number_format($this->timeElapsed, 8) . " secs </h5>";
         echo "<h6> Rounds played: " . $this->totalRounds . "</h6>";
-         echo "</div>";
+        echo "<h5> Average Time Elapsed: " . number_format($_SESSION["averageTime"], 8) . " secs </h5>";
+        echo "<h6> Average Rounds Played: " . number_format($_SESSION["averageRounds"], 8) . "</h6>";
+        echo "</div>";
         
     }
 

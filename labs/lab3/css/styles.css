@@ -6,13 +6,19 @@ header{
     background-color: white;
     width: 1200px;
     border: 25px solid black;
+    margin-left: 12%;
 }
 #displayWin2
 {
     font-family: 'Diplomata SC', cursive;
     text-align: center;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
+    background: black;
+    width: 75%;
+    margin-left: 13%;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 #displayWin
 {
@@ -26,11 +32,12 @@ header{
 #silverJack
 {
     text-shadow: 2px 2px #DC0B32;
+    margin: 2%;
 }
 footer{
     text-align: center;
     color: white;
-    font-size: 10px;
+    font-size: 15px;
     font-family: 'Diplomata SC', cursive;
 }
 body {
@@ -43,6 +50,7 @@ body {
 #displayWin
 {
     text-align: center;
+    margin-left: 12%;
 }
 #displayCard{
     
@@ -54,4 +62,8 @@ body {
      text-align: left;
      font-family: 'Diplomata SC', cursive;
      font-size: 15px;
+}
+
+#playerPic {
+    margin-left: 25px;
 }

@@ -64,7 +64,7 @@ class Player {
         // Arguments: None
         // Abstract: Displays the player name, score, and image.
         echo "<div id = 'player'>"; 
-        echo "<h3 id= 'playerI'> <img src = '" . $this->image . "' border= \"3\" style= \"border-color: #504C4D\" width=\"75\" height=\"75\" alt = '" . $this->name . "'/>".$this->name ." : " . $this->score."</h3>";
+        echo "<h3 id= 'playerI'>" .$this->name ." : " . $this->score. "</h3> <img id = 'playerPic' src = '" . $this->image . "' border= \"3\" style= \"border-color: #504C4D\" width=\"75\" height=\"75\" alt = '" . $this->name . "'/>";
         echo "</div>";
     }
     
