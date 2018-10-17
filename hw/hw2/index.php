@@ -14,7 +14,6 @@ $_SESSION["status"] = "on";
             @import url("css/styles.css");
         </style>
         
-        
     </head>
     <body>
         <header>

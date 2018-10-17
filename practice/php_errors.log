@@ -1,0 +1,225 @@
+[08-Oct-2018 22:22:22 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 85
+[08-Oct-2018 22:27:17 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:17 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:17 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:17 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:17 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:17 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:48 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:48 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:48 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:48 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:48 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:48 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 10
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91
+[08-Oct-2018 22:27:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/practice/zodiak/index.php on line 61
+[08-Oct-2018 22:27:53 UTC] PHP Stack trace:
+[08-Oct-2018 22:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiak/index.php:0
+[08-Oct-2018 22:27:53 UTC] PHP   2. yearList($rows = *uninitialized*, $columns = *uninitialized*) /home/ubuntu/workspace/cst336/practice/zodiak/index.php:91

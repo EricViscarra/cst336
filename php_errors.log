@@ -1,0 +1,173 @@
+[15-Oct-2018 19:23:16 UTC] PHP Fatal error:  Call to undefined function sesssion_start() in /home/ubuntu/workspace/cst336/midterm/index.php on line 2
+[15-Oct-2018 19:23:16 UTC] PHP Stack trace:
+[15-Oct-2018 19:23:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 44
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:44
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 44
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:44
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 44
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:44
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 44
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:44
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
+[15-Oct-2018 20:09:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/cst336/midterm/index.php on line 55
+[15-Oct-2018 20:09:32 UTC] PHP Stack trace:
+[15-Oct-2018 20:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[15-Oct-2018 20:09:32 UTC] PHP   2. makeCalender() /home/ubuntu/workspace/cst336/midterm/index.php:150
+[15-Oct-2018 20:09:32 UTC] PHP   3. in_array() /home/ubuntu/workspace/cst336/midterm/index.php:55
