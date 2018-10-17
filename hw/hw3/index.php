@@ -1,5 +1,6 @@
 <?php
 function isValid() {
+    if (isset($_GET["age"])) {
             $flag = true;
         if (!isset($_GET["gender"])) {
             echo "<div id = 'error'>";
@@ -20,6 +21,8 @@ function isValid() {
             $flag = false;
         }
         return $flag;
+    }
+    return false;
 }
 
 function findGift() {
