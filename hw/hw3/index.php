@@ -1,13 +1,17 @@
 <?php
 if (isset($_GET["age"])) {
     if (!isset($_GET["gender"]) || empty($_GET["age"]) || empty($_GET["price"])) {
+        echo "<div id = 'error'>";
         echo "<h1> ERROR: ALL FIELDS ARE NOT FILLED IN!</h1>";
+        echo "</div>";
     }
 }
 function isValid() {
     if (isset($_GET["age"])) {
         if (!isset($_GET["gender"]) || empty($_GET["age"]) || empty($_GET["price"])) {
+            echo "<div id = 'error'>";
             echo "<h1> ERROR: ALL FIELDS ARE NOT FILLED IN!</h1>";
+            echo "</div>";
             return false;
         }
         else {
@@ -124,6 +128,7 @@ function findGift() {
                 }
             ?>
         </main>
+        
         <footer>
             
             <hr>
