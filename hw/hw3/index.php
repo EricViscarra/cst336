@@ -1,11 +1,4 @@
 <?php
-if (isset($_GET["age"])) {
-    if (!isset($_GET["gender"]) || empty($_GET["age"]) || empty($_GET["price"])) {
-        echo "<div id = 'error'>";
-        echo "<h1> ERROR: ALL FIELDS ARE NOT FILLED IN!</h1>";
-        echo "</div>";
-    }
-}
 function isValid() {
     if (isset($_GET["age"])) {
         if (!isset($_GET["gender"]) || empty($_GET["age"]) || empty($_GET["price"])) {
@@ -22,12 +15,12 @@ function isValid() {
 }
 
 function findGift() {
-    $male = array("football", "soccerball", "basketball", "watch", "childbook", "teenbook", "adultbook", "quiz", "pocketknife", "lego", "actionfigure", "car", "dartboard", "nothing", "mug", "tie");
-    $female = array("doll", "childbook", "teenbook", "adultbook", "purse", "quiz", "lego", "bracelet", "necklace", "car", "nothing", "mug", "scarf", "sunglasses", "lotion");
-    $child = array("basketball", "football", "soccerball", "childbook", "actionfigure", "doll", "puzzle", "lego", "car", "nothing");
-    $teen = array("basketball", "football", "soccerball", "watch", "wallet", "teenbook", "quiz", "puzzle", "pocketknife", "lego", "bracelet", "necklace", "dartboard", "nothing", "scarf", "sunglasses", "lotion");
-    $adult = array("watch", "wallet", "adultbook", "purse", "pocketknife", "bracelet", "necklace", "dartboard", "nothing", "mug", "tie", "scarf", "sunglasses");
-    $zeroten = array("lotion", "football", "soccerball", "basketball", "actionfigure", "doll", "puzzle", "childbook", "teenbook", "adultbook", "nothing", "mug");
+    $male = array("football", "soccerball", "basketball", "watch", "childbook", "teenbook", "adultbook", "quiz", "pocketknife", "lego", "actionfigure", "car", "dartboard", "mug", "tie");
+    $female = array("doll", "childbook", "teenbook", "adultbook", "purse", "quiz", "lego", "bracelet", "necklace", "car", "mug", "scarf", "sunglasses", "lotion");
+    $child = array("basketball", "football", "soccerball", "childbook", "actionfigure", "doll", "puzzle", "lego", "car");
+    $teen = array("basketball", "football", "soccerball", "watch", "wallet", "teenbook", "quiz", "puzzle", "pocketknife", "lego", "bracelet", "necklace", "dartboard", "scarf", "sunglasses", "lotion");
+    $adult = array("watch", "wallet", "adultbook", "purse", "pocketknife", "bracelet", "necklace", "dartboard", "mug", "tie", "scarf", "sunglasses");
+    $zeroten = array("lotion", "football", "soccerball", "basketball", "actionfigure", "doll", "puzzle", "childbook", "teenbook", "adultbook", "mug");
     $tentwentyfive = array("lotion", "football", "soccerball", "basketball", "lego", "pocketknife", "wallet", "quiz", "tie", "scarf", "sunglasses");
     $twentyfivefifty = array("watch", "bracelet", "necklace", "car", "purse", "dartboard");
     $ideas = array();
@@ -55,8 +48,10 @@ function findGift() {
     else {
         $ideas = array_intersect($ideas, $twentyfivefifty);
     }
+    
     shuffle($ideas);
     $gift = array_pop($ideas);
+    
     if ($gift == "actionfigure" || $gift == "basketball" || $gift == "football" || $gift == "quiz" || $gift == "soccerball") {
         echo "<img src='img/$gift.jpg' alt='$gift' />";
     }
@@ -76,6 +71,7 @@ function findGift() {
     echo "<h2> You Should Get Them: $gift</h2>";
     echo "</div>";
 }
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -96,14 +92,16 @@ function findGift() {
                 <div id="first">
                     My gift is for: <br />
                     Him
-                    <input type="radio" name="gender" value="male"><br>
+                    <input type="radio" name="gender" value="male"
+                    <?= ($_GET['gender'] == "male")?" checked":"" ?> ><br>
                     Her
-                    <input type="radio" name="gender" value="female"><br>
+                    <input type="radio" name="gender" value="female"
+                    <?= ($_GET['gender'] == "female")?" checked":"" ?> ><br>
                 </div>
                 <hr />
                 <div id="second">
                     How old is the recipient? (1-100) <br />
-                    <input type="number" name="age" min="1" max="100"> <br/>
+                    <input type="number" name="age" min="1" max="100" value="<?=$_GET['age']?>" > <br/>
                 </div>
                 <hr />
                 <div id="third">
@@ -111,9 +109,9 @@ function findGift() {
                     <select name="price">
                         
                         <option value="">Select One</option>
-                        <option value="010">Under $10</option>
-                        <option value="1025">$10-$25</option>
-                        <option value="2550">$25-$50</option>
+                        <option <?= ($_GET['price'] == "010")?" selected":"" ?> value="010">Under $10</option>
+                        <option <?= ($_GET['price'] == "1025")?" selected":"" ?> value="1025">$10-$25</option>
+                        <option <?= ($_GET['price'] == "2550")?" selected":"" ?> value="2550">$25-$50</option>
                         
                     </select>
                 </div>
