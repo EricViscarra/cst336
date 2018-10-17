@@ -1,17 +1,25 @@
 <?php
 function isValid() {
-    if (isset($_GET["age"])) {
-        if (!isset($_GET["gender"]) || empty($_GET["age"]) || empty($_GET["price"])) {
+            $flag = true;
+        if (!isset($_GET["gender"])) {
             echo "<div id = 'error'>";
-            echo "<h1> ERROR: ALL FIELDS ARE NOT FILLED IN!</h1>";
+            echo "<h1> ERROR: GENDER FIELD IS NOT FILLED IN!</h1>";
             echo "</div>";
-            return false;
+            $flag = false;
         }
-        else {
-            return true;
+        if (empty($_GET["age"])) {
+            echo "<div id = 'error'>";
+            echo "<h1> ERROR: AGE FIELD IS NOT FILLED IN!</h1>";
+            echo "</div>";
+            $flag = false;
         }
-    }
-    return false;
+        if (empty($_GET["price"])) {
+            echo "<div id = 'error'>";
+            echo "<h1> ERROR: PRICE RANGE IS NOT FILLED IN!</h1>";
+            echo "</div>";
+            $flag = false;
+        }
+        return $flag;
 }
 
 function findGift() {
