@@ -102,8 +102,21 @@ function displaySearchResults() {
             <input type="submit" value="Search!" name="s"/>
         </form>
         
-        <br />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         <hr>
         <?= displaySearchResults() ?>
+        <footer>
+            
+            <hr>
+            
+            CST336 Internet Programming. 2018 &copy; Eric Orozco Viscarra <br />
+            
+            <strong>Disclaimer:</strong> The information in this website is ficticious. <br /> It is used for academic purposes only. <br />
+            <br />
+            
+            <img src="../../img/csumb.png" alt="CSUMB logo" />
+            <img src="../../img/buddy.png" alt="Buddy Ribbon" />
+            
+        </footer>
     </body>
 </html>
