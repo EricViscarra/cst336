@@ -376,3 +376,9 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst336/labs/lab6/index.php(88): displayCategories()
 #2 {main}
   thrown in /home/ubuntu/workspace/cst336/labs/lab6/index.php on line 11
+[28-Oct-2018 06:35:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'bc241451b56c3b'@'%' to database 'ottermart'' in /home/ubuntu/workspace/cst336/inc/dbConnection.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/inc/dbConnection.php(16): PDO->__construct('mysql:host=us-c...', 'bc241451b56c3b', 'bf09f02f')
+#1 /home/ubuntu/workspace/cst336/labs/lab6/index.php(3): startConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/inc/dbConnection.php on line 16
