@@ -9,9 +9,9 @@ function startConnection($dbName = "ottermart") {
      if  (strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
         $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
         $host = $url["host"];
-        $dbname = substr($url["path"], 1);
-        $username = $url["user"];
-        $password = $url["pass"];
+        $dbname = "heroku_621330f66ea5ba3";
+        $username = "bc241451b56c3b";
+        $password = "bf09f02f";
     } 
 
 
