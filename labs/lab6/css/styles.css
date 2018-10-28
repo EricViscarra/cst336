@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    margin: 0 auto;
+    border: solid;
+    border-radius: 4px;
+    border-color: red;
+}
+
+input {
+    
+    color: #275399;
+}
