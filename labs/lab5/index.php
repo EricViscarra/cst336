@@ -25,9 +25,9 @@
         $newItem['price'] = $_POST['itemPrice'];
         $newItem['image'] = $_POST['itemImage'];
         
-        //Check to see if other items with this id are in teh array
+        //Check to see if other items with this id are in the array
         //If so, this item isn't new. Only update quantity
-         //Must be passed by reference so that each item can be updated!
+        //Must be passed by reference so that each item can be updated!
         foreach ($_SESSION['cart'] as &$item) {
             if ($newItem['id'] == $item['id']) {
                 $item['quantity'] += 1;
