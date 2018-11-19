@@ -48,7 +48,7 @@ if (isset($_GET['productId'])) {
         <h1> Updating a Product </h1>
         
         <form>
-            <input type="text" name="productId" value="<?=$productInfo['productId']?>">
+            <input type="hidden" name="productId" value="<?=$productInfo['productId']?>">
            Product name: <input type="text" name="productName" value="<?=$productInfo['productName']?>"><br>
            Description: <textarea name="description" cols="50" rows="4"> <?=$productInfo['productDescription']?> </textarea><br>
            Price: <input type="text" name="price" value="<?=$productInfo['price']?>"><br>

@@ -387,3 +387,6 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php(23): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php on line 23
+[19-Nov-2018 10:10:23 UTC] PHP Fatal error:  Call to undefined function validateSession() in /home/ubuntu/workspace/cst336/labs/lab7/admin.php on line 10
+[19-Nov-2018 10:10:23 UTC] PHP Stack trace:
+[19-Nov-2018 10:10:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:0
