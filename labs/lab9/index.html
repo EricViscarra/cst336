@@ -128,12 +128,22 @@
         .error {
             color: red;
         }
-        h1, form {
+        h1, form, footer {
             text-align: center;
+            background: lightblue;
+            margin-bottom: 0rem !important;
         
         }
         form {
             font-size: 16pt;
+        }
+        footer {
+            text-align: center;
+            color: gray;
+            font-family: "Times New Roman", Georgia, Serif;
+            font-size:.8em;
+            margin:0 auto;
+            padding-top:10px;
         }
         
     </style>
@@ -142,7 +152,8 @@
 
 <body>
 
-    <h1> Sign Up Form </h1>
+    <h1> Sign Up Form <br /><br /></h1>
+    
 
     <form onsubmit="return validateForm()">
         <fieldset>
@@ -165,9 +176,21 @@
 
         </fieldset>
 
-    </form>
+</form>
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <footer>
+        <br><br><br>    
+        <hr> CST336 Internet Programming. 2018 &copy; Eric Orozco Viscarra <br />
+    
+        <strong>Disclaimer:</strong> The information in this website is ficticious. <br /> It is used for academic purposes only. <br />
+        <br />
+    
+        <img src="../../img/csumb.png" alt="CSUMB logo" />
+        <img src="../../img/buddy.png" alt="Buddy Ribbon" />
+    
+    </footer>
 </body>
 
 </html>
