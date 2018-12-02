@@ -1,77 +1,173 @@
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>AJAX: Sign Up Page</title>
 
-        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-        <script>
-        
-            function validateForm() {
-                
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX: Sign Up Page</title>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script>
+        function validateForm() {
+
+            var username = $("#username").val();
+            var password = $("#password").val();
+            var passwordAgain = $("#passwordAgain").val();
+
+            if (username.length < 5) {
+
+                $("#usernameError").html("Error: Username must be at least 5 characters long");
+
+            }
+            if (password.length < 3) {
+
+                $("#passwordError").html("Error: Password not long enough, needs to be 3 characters long");
+
+            }
+
+            if (password != passwordAgain) {
+                $("#passwordMismatch").html("Error: Passwords must match");
+            }
+
+            return false;
+
+        }
+
+
+        $("document").ready(function() {
+
+            $("#zip").change(function() {
+
+                $.ajax({
+
+                    type: "GET",
+                    url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+                    dataType: "json",
+                    data: { "zip": $("#zip").val() },
+                    success: function(data, status) {
+
+                        //alert(data.city);
+                        if (!data) {
+                            $("#zipcodeError").html("Zip code not found");
+                            $("#city").html("Not found");
+                            $("#latitude").html("Not found");
+                            $("#longitude").html("Not found");
+                        }
+                        else {
+                            $("#city").html(data.city);
+                            $("#latitude").html(data.latitude);
+                            $("#longitude").html(data.longitude);
+                        }
+
+                    },
+                    complete: function(data, status) { //optional, used for debugging purposes
+                        //alert(status);
+                    }
+
+                }); //ajax
+
+            }); //zipEvent
+
+            $("#username").change(function() {
                 var username = $("#username").val();
-                
-                if (username.length < 5 ) {
+                //alert(username);
+                $.ajax({
+
+                    type: "GET",
+                    url: "checkUsername.php",
+                    dataType: "json",
+                    data: { "username": username },
+                    success: function(data, status) {
+                     
+                        if(!data) {
+                            $("#usernameError").html("username is available");
+                            $("#usernameError").css("color", "green");
+                        } else {
+                             $("#usernameError").html("username is not available");
+                             $("#usernameError").css("color", "red");
+                             
+                        }
                     
-                    $("#usernameError").html("Error: Username must be at least 5 characters long");
-                    
-                }
-                
-                return false;
-           
-            }
-            
-        </script>
+                    },
+                    complete: function(data, status) { //optional, used for debugging purposes
+                        //alert(status);
+                    }
+
+                }); //ajax
+
+
+            });
+
+            $("#state").change(function() {
+                $.ajax({
+
+                    type: "GET",
+                    url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
+                    dataType: "json",
+                    data: { "state": $("#state").val() },
+                    success: function(data, status) {
+                        $("#county").html("Select one");
+                        for (var i = 0; i < data.length; i++) {
+                            $("#county").append("<option>" + data[i].county + "</option>");
+                        }
+                        //alert(data[0].county);
+                        //$("#city").html(data.city);
+
+
+                    },
+                    complete: function(data, status) { //optional, used for debugging purposes
+                        //alert(status);
+                    }
+
+                }); //ajax
+
+            }); // state event
+        }); //documentReady
+    </script>
+
+    <style>
+        .error {
+            color: red;
+        }
+        h1, form {
+            text-align: center;
         
-        <style>
-            
-            .error{
-                color: red;
-            }
-        </style>
+        }
+        form {
+            font-size: 16pt;
+        }
+        
+    </style>
+    <link rel= "stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
+</head>
 
-    </head>
+<body>
 
-    <body>
-    
-       <h1> Sign Up Form </h1>
-    
-        <form onsubmit="return validateForm()">
-            <fieldset>
-               <legend>Sign Up</legend>
-                First Name:  <input type="text"><br> 
-                Last Name:   <input type="text"><br> 
-                Email:       <input type="text"><br> 
-                Phone Number:<input type="text"><br><br>
-                Zip Code:    <input type="text"><br>
-                City: 
-                <br>
-                Latitude: 
-                <br>
-                Longitude:
-                <br><br>
-                State: 
-                <select>
+    <h1> Sign Up Form </h1>
+
+    <form onsubmit="return validateForm()">
+        <fieldset>
+            <legend>Sign Up</legend>
+            First Name: <input type="text"><br> Last Name: <input type="text"><br> Email: <input type="text"><br> Phone Number: <input type="text"><br><br> Zip Code: <input type="text" id="zip"> <span id="zipcodeError" class="error"></span><br> City: <span id="city"></span>
+            <br> Latitude: <span id="latitude"></span>
+            <br> Longitude: <span id="longitude"></span>
+            <br><br> State:
+            <select id="state">
                     <option value="">Select One</option>
                     <option value="ca"> California</option>
                     <option value="ny"> New York</option>
                     <option value="tx"> Texas</option>
                     <option value="va"> Virginia</option>
-                </select><br />
-                
-                Select a County: <select></select><br>
-                
-                Desired Username: <input id="username"  type="text">  <span id="usernameError" class="error" ></span> 
-                <br>
-                
-                Password: <input type="password"><br>
-                
-                Type Password Again: <input type="password"><br>
-                
-                <input type="submit" value="Sign up!">
-            </fieldset>
-        </form>
-    
-    </body>
+                </select><br /> Select a County: <select id="county"></select><br> Desired Username: <input id="username" type="text"> <span id="usernameError" class="error"></span>
+            <br> Password: <input id="password" type="password"><span id="passwordError" class="error"></span><br> Type Password Again: <input id="passwordAgain" type="password"><span id="passwordMismatch" class="error"></span><br>
+            
+            <br>
+            <button type="submit" value="Sign up!" class="btn btn-primary">Sign up!</button>
+
+        </fieldset>
+
+    </form>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+
 </html>
