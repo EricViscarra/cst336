@@ -390,3 +390,35 @@ Stack trace:
 [19-Nov-2018 10:10:23 UTC] PHP Fatal error:  Call to undefined function validateSession() in /home/ubuntu/workspace/cst336/labs/lab7/admin.php on line 10
 [19-Nov-2018 10:10:23 UTC] PHP Stack trace:
 [19-Nov-2018 10:10:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:0
+[09-Dec-2018 06:08:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.pets' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab10/pets.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab10/pets.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab10/pets.php(71): getAllPets()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab10/pets.php on line 11
+[09-Dec-2018 06:10:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.pets' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab10/pets.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab10/pets.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab10/pets.php(71): getAllPets()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab10/pets.php on line 11
+[09-Dec-2018 06:11:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.pets' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab10/pets.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab10/pets.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab10/pets.php(71): getAllPets()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab10/pets.php on line 11
+[09-Dec-2018 06:11:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.pets' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab10/pets.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab10/pets.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab10/pets.php(71): getAllPets()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab10/pets.php on line 11
+[09-Dec-2018 06:15:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.pets' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab10/pets.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab10/pets.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab10/pets.php(71): getAllPets()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab10/pets.php on line 11
+[09-Dec-2018 06:36:33 UTC] PHP Parse error:  syntax error, unexpected ''.$imageURLs[$i].'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab10/index.php on line 58
+[09-Dec-2018 07:17:05 UTC] PHP Parse error:  syntax error, unexpected 'd' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab10/index.php on line 64
