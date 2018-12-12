@@ -422,3 +422,38 @@ Stack trace:
   thrown in /home/ubuntu/workspace/cst336/labs/lab10/pets.php on line 11
 [09-Dec-2018 06:36:33 UTC] PHP Parse error:  syntax error, unexpected ''.$imageURLs[$i].'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab10/index.php on line 58
 [09-Dec-2018 07:17:05 UTC] PHP Parse error:  syntax error, unexpected 'd' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab10/index.php on line 64
+[12-Dec-2018 16:35:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(26): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 26
+[12-Dec-2018 16:36:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 26
+[12-Dec-2018 16:36:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 26
+[12-Dec-2018 16:39:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 33
+[12-Dec-2018 16:48:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(35): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 35
+[12-Dec-2018 16:48:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(35): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 35
+[12-Dec-2018 16:49:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(36): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 36

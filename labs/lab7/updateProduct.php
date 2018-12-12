@@ -13,14 +13,26 @@ if (isset($_GET['updateProduct'])){  //user has submitted update form
     $price =  $_GET['price'];
     $catId =  $_GET['catId'];
     $image = $_GET['productImage'];
+    $namedParameters = array();
+    
+
     
     $sql = "UPDATE om_product 
-            SET productName= :productName,
-               productDescription = :productDescription,
-               price = :price,
-               catId = :catId,
-               productImage = :productImage
+            SET productName= :productName, 
+               productDescription = :productDescription, 
+               price = :price, 
+               catId = :catId, 
+               productImage = :productImage 
             WHERE productId = " . $_GET['productId'];
+    
+    $namedParameters[":productName"] = $productName;
+    $namedParameters[":productDescription"] = $description;
+    $namedParameters[":price"] = $price;
+    $namedParameters[":catId"] = $catId;
+    $namedParameters[":productImage"] = $image;
+    
+    $stmt = $dbConn->prepare($sql);
+    $stmt->execute($namedParameters);
     
 }
 
