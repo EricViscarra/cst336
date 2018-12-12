@@ -123,6 +123,7 @@ function displayCategory() {
             </fieldset>
     
         </form>
+        <hr>
         <?= displayResults() ?>
         <br><br><br>
 
