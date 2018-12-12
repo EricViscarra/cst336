@@ -14,14 +14,13 @@ if (isset($_GET['updateProduct'])){  //user has submitted update form
     $catId =  $_GET['catId'];
     $image = $_GET['productImage'];
     
-    $sql = "UPDATE om_product 
+    $sql = "UPDATE heroku_621330f66ea5ba3 
             SET productName= :productName,
                productDescription = :productDescription,
                price = :price,
                catId = :catId,
                productImage = :productImage
             WHERE productId = " . $_GET['productId'];
-         
     
 }
 
