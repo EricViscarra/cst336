@@ -107,7 +107,7 @@ if (isset($_GET['productId'])) {
         </form>
         <br>
         <form action="admin.php">
-              <input type="submit" value="Cancel">
+              <input type="submit" value="Return">
           </form>
         
         

@@ -17,7 +17,7 @@
         <br>
         
         <form action="index.php">
-              <input type="submit" value="Cancel">
+              <input type="submit" value="Return">
         </form>
         
 

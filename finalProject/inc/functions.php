@@ -44,7 +44,7 @@ function displayResults() {
         
         echo "<table border = '1' align='center' width='75%'>";
         
-        while ($i < 10 && $i < count($records)) {
+        while ($i < 20 && $i < count($records)) {
             $record = $records[$i];
             
             echo "<tr>";
@@ -68,8 +68,8 @@ function displayResults() {
         }
         
         echo "</table>";
-        }
         
+    }
 }
 
 function includeNavBar() {
@@ -133,10 +133,9 @@ function displayAllProducts(){
     $stmt->execute();
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC); //we're expecting multiple records
 
-    foreach ($records as $record) {
         $i = 0;
         
-        echo "<table border = '1' align='center' width='100%'>";
+        echo "<table border = '1' align='center' width='99%'>";
         
         while ($i < 30 && $i < count($records)) {
             $record = $records[$i];
@@ -166,22 +165,21 @@ function displayAllProducts(){
         }
         
         echo "</table>";
+        echo "<br><br>";
+        // echo "<a class='btn btn-primary' role='button' href='updateProduct.php?productId=".$record['productId']."'>Update</a>";
+        // //echo "[<a href='deleteProduct.php?productId=".$record['productId']."'>Delete</a>]";
+        // echo "<form action='deleteProduct.php' onsubmit='return confirmDelete()'>";
+        // echo "   <input type='hidden' name='productId' value='".$record['productId']."'>";
+        // echo "   <button class='btn btn-outline-danger' type='submit'>Delete</button>";
+        // echo "</form>";
         
-        echo "<a class='btn btn-primary' role='button' href='updateProduct.php?productId=".$record['productId']."'>Update</a>";
-        //echo "[<a href='deleteProduct.php?productId=".$record['productId']."'>Delete</a>]";
-        echo "<form action='deleteProduct.php' onsubmit='return confirmDelete()'>";
-        echo "   <input type='hidden' name='productId' value='".$record['productId']."'>";
-        echo "   <button class='btn btn-outline-danger' type='submit'>Delete</button>";
-        echo "</form>";
+        // echo "[<a 
         
-        echo "[<a 
-        
-        onclick='openModal()' target='productModal'
-        href='productInfo.php?productId=".$record['productId']."'>".$record['productName']."</a>]  ";
-        echo " $" . $record[price]   . "<br><br>";
+        // onclick='openModal()' target='productModal'
+        // href='productInfo.php?productId=".$record['productId']."'>".$record['productName']."</a>]  ";
+        // echo " $" . $record[price]   . "<br><br>";
         
     }
-}
 
 function getColors() {
     global $dbConn;

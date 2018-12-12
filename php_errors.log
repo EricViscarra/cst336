@@ -485,3 +485,12 @@ Stack trace:
 [12-Dec-2018 21:14:42 UTC] PHP Stack trace:
 [12-Dec-2018 21:14:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/admin.php:0
 [12-Dec-2018 21:14:42 UTC] PHP   2. generateReports() /home/ubuntu/workspace/cst336/finalProject/admin.php:82
+[12-Dec-2018 23:06:05 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php on line 183
+[12-Dec-2018 23:06:05 UTC] PHP Stack trace:
+[12-Dec-2018 23:06:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/index.php:0
+[12-Dec-2018 23:06:53 UTC] PHP Fatal error:  Call to undefined function includeNavBar() in /home/ubuntu/workspace/cst336/finalProject/index.php on line 84
+[12-Dec-2018 23:06:53 UTC] PHP Stack trace:
+[12-Dec-2018 23:06:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/index.php:0
+[12-Dec-2018 23:08:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php on line 183
+[12-Dec-2018 23:08:03 UTC] PHP Stack trace:
+[12-Dec-2018 23:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/index.php:0
