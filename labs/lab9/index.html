@@ -138,15 +138,12 @@
                         //alert(data.city);
                         if (!data) {
                             $("#zipcodeError").html("Zip code not found");
+                            $("#city").html("Not found");
+                            $("#latitude").html("Not found");
+                            $("#longitude").html("Not found");
                         }
                         else {
-                            if (data.city=="Salinas") {
-                                $("#nearMe").html("There is a location near you!");
-                            }
-                            else {
-                                $("#nearMe").html("There is no location near you!");
-                            }
-                            
+                            $("#city").html(data.city);
                         }
 
                     },
