@@ -14,7 +14,7 @@ if (isset($_GET['updateProduct'])){  //user has submitted update form
     $catId =  $_GET['catId'];
     $image = $_GET['productImage'];
     
-    $sql = "UPDATE heroku_621330f66ea5ba3 
+    $sql = "UPDATE om_product 
             SET productName= :productName,
                productDescription = :productDescription,
                price = :price,
