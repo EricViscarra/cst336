@@ -22,12 +22,12 @@ function generateReports(){
         $counter = $counter+1;
     }
     $average = $totalPrice/$counter;
-    echo "Total Amount of Products: ". $counter;
+    echo "<h2>Total Quantity of Products: ". $counter;
     echo "<br>";
-    echo "Total Price of all Items: ".$totalPrice;
+    echo "Total Price of all Items: $".$totalPrice;
     echo "<br>";
-    echo "Average Price of all Items: ". $average;
-    echo "<br>";
+    echo "Average Price of all Items: $". $average;
+    echo "</h2>";
 }
 
 
@@ -74,8 +74,7 @@ function generateReports(){
           </form>
 
            <br><br>
-        Reports:
-        <br>
+        <h2>Reports:</h2>
         
         
         <?php
