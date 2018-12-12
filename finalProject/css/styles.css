@@ -1,0 +1,29 @@
+body{
+    text-align:center !important;
+    color: #032B4D;
+    font-size: 3em;
+
+    background-color: #8cc7ff !important;
+}
+h2, h4{
+    color: #506A52;
+}
+h1{
+    color: #032B4D;
+    text-shadow: 2px 2px #9D8A54;
+}
+header{
+    background-color: #1b84e5;
+}
+
+.navbar-default {
+    background-color:#4591e8 ;
+}
+
+makeitwhite {
+    color: white;
+}
+
+input, select {
+    font-size: 1em;
+}
