@@ -494,3 +494,30 @@ Stack trace:
 [12-Dec-2018 23:08:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php on line 183
 [12-Dec-2018 23:08:03 UTC] PHP Stack trace:
 [12-Dec-2018 23:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/index.php:0
+[17-Dec-2018 23:11:49 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final/program2.php on line 2
+[17-Dec-2018 23:11:49 UTC] PHP Stack trace:
+[17-Dec-2018 23:11:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/program2.php:0
+[17-Dec-2018 23:11:49 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final/program2.php on line 2
+[17-Dec-2018 23:11:49 UTC] PHP Stack trace:
+[17-Dec-2018 23:11:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/program2.php:0
+[17-Dec-2018 23:11:49 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/final/program2.php on line 3
+[17-Dec-2018 23:11:49 UTC] PHP Stack trace:
+[17-Dec-2018 23:11:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/program2.php:0
+[17-Dec-2018 23:12:22 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final/program2.php on line 2
+[17-Dec-2018 23:12:22 UTC] PHP Stack trace:
+[17-Dec-2018 23:12:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/program2.php:0
+[17-Dec-2018 23:12:22 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final/program2.php on line 2
+[17-Dec-2018 23:12:22 UTC] PHP Stack trace:
+[17-Dec-2018 23:12:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/program2.php:0
+[17-Dec-2018 23:12:22 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/final/program2.php on line 3
+[17-Dec-2018 23:12:22 UTC] PHP Stack trace:
+[17-Dec-2018 23:12:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/program2.php:0
+[17-Dec-2018 23:14:41 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final/program2.php on line 2
+[17-Dec-2018 23:14:41 UTC] PHP Stack trace:
+[17-Dec-2018 23:14:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/program2.php:0
+[17-Dec-2018 23:14:41 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final/program2.php on line 2
+[17-Dec-2018 23:14:41 UTC] PHP Stack trace:
+[17-Dec-2018 23:14:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/program2.php:0
+[17-Dec-2018 23:14:41 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/final/program2.php on line 3
+[17-Dec-2018 23:14:41 UTC] PHP Stack trace:
+[17-Dec-2018 23:14:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/program2.php:0
