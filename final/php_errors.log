@@ -16,3 +16,48 @@
 [17-Dec-2018 22:25:19 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/final/api/checkPasswordChange.php on line 4
 [17-Dec-2018 22:25:19 UTC] PHP Stack trace:
 [17-Dec-2018 22:25:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/final/api/checkPasswordChange.php:0
+[17-Dec-2018 23:05:07 UTC] PHP Warning:  include(../../cst336/inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php on line 3
+[17-Dec-2018 23:05:07 UTC] PHP Stack trace:
+[17-Dec-2018 23:05:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php:0
+[17-Dec-2018 23:05:07 UTC] PHP Warning:  include(): Failed opening '../../cst336/inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php on line 3
+[17-Dec-2018 23:05:07 UTC] PHP Stack trace:
+[17-Dec-2018 23:05:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php:0
+[17-Dec-2018 23:05:07 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php on line 4
+[17-Dec-2018 23:05:07 UTC] PHP Stack trace:
+[17-Dec-2018 23:05:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php:0
+[17-Dec-2018 23:05:34 UTC] PHP Warning:  include(../../cst336/inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php on line 3
+[17-Dec-2018 23:05:34 UTC] PHP Stack trace:
+[17-Dec-2018 23:05:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php:0
+[17-Dec-2018 23:05:34 UTC] PHP Warning:  include(): Failed opening '../../cst336/inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php on line 3
+[17-Dec-2018 23:05:34 UTC] PHP Stack trace:
+[17-Dec-2018 23:05:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php:0
+[17-Dec-2018 23:05:34 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php on line 4
+[17-Dec-2018 23:05:34 UTC] PHP Stack trace:
+[17-Dec-2018 23:05:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php:0
+[17-Dec-2018 23:06:06 UTC] PHP Warning:  include(../../cst336/inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php on line 3
+[17-Dec-2018 23:06:06 UTC] PHP Stack trace:
+[17-Dec-2018 23:06:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php:0
+[17-Dec-2018 23:06:06 UTC] PHP Warning:  include(): Failed opening '../../cst336/inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php on line 3
+[17-Dec-2018 23:06:06 UTC] PHP Stack trace:
+[17-Dec-2018 23:06:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php:0
+[17-Dec-2018 23:06:06 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php on line 4
+[17-Dec-2018 23:06:06 UTC] PHP Stack trace:
+[17-Dec-2018 23:06:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php:0
+[17-Dec-2018 23:06:17 UTC] PHP Warning:  include(../../cst336/inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php on line 3
+[17-Dec-2018 23:06:17 UTC] PHP Stack trace:
+[17-Dec-2018 23:06:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php:0
+[17-Dec-2018 23:06:17 UTC] PHP Warning:  include(): Failed opening '../../cst336/inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php on line 3
+[17-Dec-2018 23:06:17 UTC] PHP Stack trace:
+[17-Dec-2018 23:06:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php:0
+[17-Dec-2018 23:06:17 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php on line 4
+[17-Dec-2018 23:06:17 UTC] PHP Stack trace:
+[17-Dec-2018 23:06:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php:0
+[17-Dec-2018 23:06:57 UTC] PHP Warning:  include(../../cst336/inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php on line 3
+[17-Dec-2018 23:06:57 UTC] PHP Stack trace:
+[17-Dec-2018 23:06:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php:0
+[17-Dec-2018 23:06:57 UTC] PHP Warning:  include(): Failed opening '../../cst336/inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php on line 3
+[17-Dec-2018 23:06:57 UTC] PHP Stack trace:
+[17-Dec-2018 23:06:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php:0
+[17-Dec-2018 23:06:57 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php on line 4
+[17-Dec-2018 23:06:57 UTC] PHP Stack trace:
+[17-Dec-2018 23:06:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/api/checkPasswordChange.php:0

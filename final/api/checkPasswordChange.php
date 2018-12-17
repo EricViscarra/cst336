@@ -1,6 +1,6 @@
 <?php
 header('Access-Control-Allow-Origin: *');
-include '../../cst336/inc/dbConnection.php';
+include '../../inc/dbConnection.php';
 $dbConn = startConnection("final");
 
 
