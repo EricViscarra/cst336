@@ -11,9 +11,6 @@
 // then click the URL that is emitted to the Output tab of the console
 
 echo "<h1>Eric Orozco Viscarra's CST336 site </h1>";
-
-for ($i=1; $i<40; $i+=2) { echo $i; } 
 ?>
-
 </body>
 </html>
